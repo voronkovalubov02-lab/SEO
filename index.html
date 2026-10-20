@@ -1,40 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styels.css">
-    <meta name="description" content="Тест на Кмітливість та Логіку Онлайн. Цікаві запитання,корисні для розвитку мислення. Спробуй свої сили прямо зараз">
-    <meta name="keywords" content="Тести,Кмітливість,логічні завдання,онлайн тести,Розвиток мислення">
-    <title>Онлайн тести на логіку та кмітливість - спробуй зараз</title>
+    <meta name="description" content="Тест на Кмітливість та Логіку Онлайн. Цікаві запитання, корисні для розвитку мислення. Спробуй свої сили прямо зараз">
+    <meta name="keywords" content="Тести, Кмітливість, логічні завдання, онлайн тести, Розвиток мислення">
+    <title>Онлайн тести на логіку та кмітливість - IQ Challenge</title>
 </head>
 <body>
     <header>
-    <h1>Онлайн тести на кмітливість</h1>
-    <p>Перевір свою логіку та кмітливість за допомогою наших завдань</p>
+        <h1>IQ Challenge: Онлайн тести на кмітливість</h1>
+        <p>Перевір свою логіку та кмітливість за допомогою наших завдань</p>
     </header>
+    
     <main>
-        <section>
+        <section class="test-container">
             <h2>Тестові запитання</h2>
-            <div>
-                <p><Strong>Питання 1:</Strong>у мене є чотири ноги, але я не можу ходити.хто я?</p>
-               <button onclick="toggleAnsver('ansver1')">Показати відповідь</button>
-                <p class="ansver" id="ansver1"> Це стіл!</p>
+            
+            <div class="question-card">
+                <p><strong>Питання 1:</strong> У мене є чотири ноги, але я не можу ходити. Хто я?</p>
+                <button onclick="toggleAnsver('ansver1')">Показати відповідь</button>
+                <p class="ansver" id="ansver1">Це стіл!</p>
             </div>
-            <div>
-                <p><strong>Питання 2:</strong>XЧим більше я беру,тим більше залишаю позаду. що це?</p>
-              <button onclick="toggleAnsver('ansver2')">Показати відповідь</button>
+            
+            <div class="question-card">
+                <p><strong>Питання 2:</strong> Чим більше я беру, тим більше залишаю позаду. Що це?</p>
+                <button onclick="toggleAnsver('ansver2')">Показати відповідь</button>
                 <p class="ansver" id="ansver2">Це сліди!</p>
             </div>
-            <div>
-                <p><strong>Питання 3:</strong>Що падає але ніколи не підіймається?</p>
-              <button onclick="toggleAnsver('ansver3')">Показати відповідь</button>
+            
+            <div class="question-card">
+                <p><strong>Питання 3:</strong> Що падає, але ніколи не підіймається?</p>
+                <button onclick="toggleAnsver('ansver3')">Показати відповідь</button>
                 <p class="ansver" id="ansver3">Це дощ!</p>
+            </div>
+
+            <div class="question-card">
+                <p><strong>Питання 4:</strong> Що має одне око, але зовсім не бачить?</p>
+                <button onclick="toggleAnsver('ansver4')">Показати відповідь</button>
+                <p class="ansver" id="ansver4">Це голка!</p>
+            </div>
+
+            <div class="question-card">
+                <p><strong>Питання 5:</strong> Який місяць має 28 днів?</p>
+                <button onclick="toggleAnsver('ansver5')">Показати відповідь</button>
+                <p class="ansver" id="ansver5">Усі місяці мають щонайменше 28 днів!</p>
+            </div>
+
+            <div class="question-card">
+                <p><strong>Питання 6:</strong> Що можна розбити, навіть якщо ніколи не береш у руки?</p>
+                <button onclick="toggleAnsver('ansver6')">Показати відповідь</button>
+                <p class="ansver" id="ansver6">Це серце!</p>
             </div>
         </section>
     </main>
+
     <footer>
-        <P>  2026 Онлайн тести на Кмітливість</P>
+        <p>2026 Онлайн тести на Кмітливість. Усі права захищено.</p>
     </footer>
 
     <script src="script.js"></script>
